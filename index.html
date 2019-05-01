@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="">
+        <title>Page 1</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css" type="text/css">
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <header class="page-header">
+                <div class="page-header__main">
+                    <h1 class="page-header__name">Система ЖКХ</h1>
+                </div>
+                <ul class="page-header__auth">
+                    <li class="auth-item auth"><span class="auth-avatar"></span>УК "Северная звезда"</li>
+                    <li class="auth-item exit">Выход</li>
+                </ul>
+            </header>
+            <main>
+                <section class="page-nav">
+                    <h2 class="visually-hidden">Навигационная панель</h2>
+                    <ul class="main-nav">
+                        <li class="main-nav__item">
+                            <a class="main-nav__link main-nav__link--active" href="#">
+                                <span class="link-icon desktop-icon"></span>
+                                Рабочий стол
+                            </a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a class="main-nav__link" href="#">
+                                <span class="link-icon houses-icon"></span>
+                                Дома
+                            </a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a class="main-nav__link" href="#">
+                                <span class="link-icon abonents-icon"></span>
+                                Абоненты
+                            </a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a class="main-nav__link" href="#">
+                                <span class="link-icon requests-icon"></span>
+                                Запросы на изменения
+                            </a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a class="main-nav__link" href="#">
+                                <span class="link-icon search-icon"></span>
+                                Поиск
+                                <p>По лицевым счетам, ФИО или адресу</p>
+                            </a>
+                        </li>  
+                    </ul>
+                </section>
+                <div class="data-wrapper">
+                    <section class="data-controls">
+                        <h2 class="visually-hidden">Подробная информация о ресурсах</h2>
+                        <div class="data-controls__resources-btns">
+                            <button class="resources-btn resources-btn--active cold-water">ХВС</button>
+                            <button class="resources-btn hot-water">ГВС</button>
+                            <button class="resources-btn warm">Тепло</button>
+                            <button class="resources-btn electricity">ЭЭ</button>
+                        </div>
+                        <div class="data-controls__wrapper">
+                            <header>
+                                <ul class="data-controls__params-list">
+                                    <li class="params-list__item">ипу</li>
+                                    <li class="params-list__item">одпу</li>
+                                    <li class="params-list__item params-list__item--active">сои</li>
+                                </ul>
+                                <div class="data-controls__toggle-month">
+                                    <button class="toggle-month__btn btn prev"></button>
+                                    <p class="toggle-month__name">
+                                        Март 2019
+                                    </p>
+                                    <button class="toggle-month__btn btn next"></button>
+                                </div>
+                            </header>
+                            <div class="measures-wrapper">
+                                <ul class="data-controls__measures">
+                                    <li>400 000</li>
+                                    <li>300 000</li>
+                                    <li>200 000</li>
+                                    <li>100 000</li>
+                                    <li></li>
+                                </ul>
+                                <div class="graph-wrapper">
+                                    <figure class="data-controls__graph first-street-graph">
+                                        <figcaption>ул. Корабельная</figcaption>
+                                        <ul class="data-controls__houses">
+                                            <li class="houses-list__item h12">
+                                                <div class="house-list__item-scale">
+                                                    <div class="scale-bar upper-bar"></div>
+                                                    <div class="scale-bar down-bar"></div>
+                                                    <div class="houses-list__popup">
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">План</span>
+                                                            <span class="data-cell__value">350 000 м<sup>2</sup></span>
+                                                        </div>
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">Факт</span>
+                                                            <span class="data-cell__value">200 000 м<sup>2</sup></span>
+                                                        </div>
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">СОИ</span>
+                                                            <span class="data-cell__value">0 м<sup>2</sup></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span class="houses-list__house-id">д. 12</span>
+                                            </li>
+                                            <li class="houses-list__item h13">
+                                                <div class="house-list__item-scale">
+                                                    <div class="scale-bar upper-bar"></div>
+                                                    <div class="scale-bar down-bar"></div>
+                                                    <div class="houses-list__popup">
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">План</span>
+                                                            <span class="data-cell__value">350 000 м<sup>2</sup></span>
+                                                        </div>
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">Факт</span>
+                                                            <span class="data-cell__value">200 000 м<sup>2</sup></span>
+                                                        </div>
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">СОИ</span>
+                                                            <span class="data-cell__value">0 м<sup>2</sup></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span class="houses-list__house-id">д. 13</span>
+                                            </li>
+                                            <li class="houses-list__item h14">
+                                                <div class="house-list__item-scale">
+                                                    <div class="scale-bar upper-bar"></div>
+                                                    <div class="scale-bar down-bar"></div>
+                                                    <div class="houses-list__popup">
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">План</span>
+                                                            <span class="data-cell__value">350 000 м<sup>2</sup></span>
+                                                        </div>
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">Факт</span>
+                                                            <span class="data-cell__value">200 000 м<sup>2</sup></span>
+                                                        </div>
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">СОИ</span>
+                                                            <span class="data-cell__value">0 м<sup>2</sup></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span class="houses-list__house-id">д. 14</span>
+                                            </li>
+                                            <li class="houses-list__item h15">
+                                                <div class="house-list__item-scale">
+                                                    <div class="scale-bar upper-bar"></div>
+                                                    <div class="scale-bar down-bar"></div>
+                                                    <div class="houses-list__popup">
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">План</span>
+                                                            <span class="data-cell__value">350 000 м<sup>2</sup></span>
+                                                        </div>
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">Факт</span>
+                                                            <span class="data-cell__value">200 000 м<sup>2</sup></span>
+                                                        </div>
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">СОИ</span>
+                                                            <span class="data-cell__value">0 м<sup>2</sup></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span class="houses-list__house-id">д. 15</span>
+                                            </li>
+                                            <li class="houses-list__item h15b">
+                                                <div class="house-list__item-scale">
+                                                    <div class="scale-bar upper-bar"></div>
+                                                    <div class="scale-bar down-bar"></div>
+                                                    <div class="houses-list__popup">
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">План</span>
+                                                            <span class="data-cell__value">350 000 м<sup>2</sup></span>
+                                                        </div>
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">Факт</span>
+                                                            <span class="data-cell__value">200 000 м<sup>2</sup></span>
+                                                        </div>
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">СОИ</span>
+                                                            <span class="data-cell__value">0 м<sup>2</sup></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span class="houses-list__house-id">д. 15б</span>
+                                            </li>
+                                            <li class="houses-list__item h34b">
+                                                <div class="house-list__item-scale">
+                                                    <div class="scale-bar upper-bar"></div>
+                                                    <div class="scale-bar down-bar"></div>
+                                                    <div class="houses-list__popup">
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">План</span>
+                                                            <span class="data-cell__value">350 000 м<sup>2</sup></span>
+                                                        </div>
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">Факт</span>
+                                                            <span class="data-cell__value">200 000 м<sup>2</sup></span>
+                                                        </div>
+                                                        <div class="data-cell popup-cell">
+                                                            <span class="data-cell__name">СОИ</span>
+                                                            <span class="data-cell__value">0 м<sup>2</sup></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span class="houses-list__house-id">д. 34б</span>
+                                            </li>
+                                        </ul>
+                                    </figure>
+                                    <figure class="data-controls__graph second-street-graph">
+                                        <figcaption>ул. Ленина</figcaption>
+                                        <ul class="data-controls__houses">
+                                            <li class="houses-list__item h12">
+                                                <div class="house-list__item-scale">
+                                                    <div class="scale-bar upper-bar"></div>
+                                                    <div class="scale-bar down-bar"></div>
+                                                </div>
+                                                <span>д. 12</span>
+                                            </li>
+                                            <li class="houses-list__item h13">
+                                                <div class="house-list__item-scale">
+                                                    <div class="scale-bar upper-bar"></div>
+                                                    <div class="scale-bar down-bar"></div>
+                                                </div>
+                                                <span>д. 13</span>
+                                            </li>
+                                            <li class="houses-list__item h14">
+                                                <div class="house-list__item-scale">
+                                                    <div class="scale-bar upper-bar"></div>
+                                                    <div class="scale-bar down-bar"></div>
+                                                </div>
+                                                <span>д. 14</span>
+                                            </li>
+                                            <li class="houses-list__item h15">
+                                                <div class="house-list__item-scale">
+                                                    <div class="scale-bar upper-bar"></div>
+                                                    <div class="scale-bar down-bar"></div>
+                                                </div>
+                                                <span>д. 15</span>
+                                            </li>
+                                            <li class="houses-list__item h15b">
+                                                <div class="house-list__item-scale">
+                                                    <div class="scale-bar upper-bar"></div>
+                                                    <div class="scale-bar down-bar"></div>
+                                                </div>
+                                                <span>д. 15б</span>
+                                            </li>
+                                            <li class="houses-list__item h34b">
+                                                <div class="house-list__item-scale">
+                                                    <div class="scale-bar upper-bar"></div>
+                                                    <div class="scale-bar down-bar"></div>
+                                                </div>
+                                                <span>д. 34б</span>
+                                            </li>
+                                        </ul>
+                                    </figure>
+                                </div>
+                                <div class="data-controls__measures-buttons">
+                                    <button class="measures-button btn prev"></button>
+                                    <button class="measures-button btn next"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="additional-sections-wrapper">
+                        <section class="house-info">
+                            <h4 class="visually-hidden">Показатели дома</h4>
+                            <header>
+                                <p class="house-info__house-name">Корабельная, д.13</p>
+                                <p class="house-info__info-name">ХВС</p>
+                            </header>
+                            <div class="house-info__wrapper">
+                                <div class="data-cell house-info-cell plan-cell">
+                                    <span class="data-cell__name">План</span>
+                                    <span class="data-cell__value house-info-value">200 000 м<sup>2</sup></span>
+                                </div>
+                                <div class="data-cell house-info-cell fact-cell">
+                                    <span class="data-cell__name">Факт</span>
+                                    <span class="data-cell__value house-info-value">350 000 м<sup>2</sup></span>
+                                </div>
+                                <div class="data-cell house-info-cell soi-cell">
+                                    <span class="data-cell__name">СОИ</span>
+                                    <span class="data-cell__value house-info-value house-info-value--marked">150 000 м<sup>2</sup></span>
+                                </div>
+                            </div>
+                            <div class="houses-info__info-message">
+                                <p class="info-message__value">
+                                    Причина: несвоевременная реакция на <a href="#" class="info-message__link">аварию в системе ГВС</a>    
+                                </p>
+                            </div>
+                            <div class="house-info__wrapper">
+                                <div class="data-cell house-info-cell">
+                                    <span class="data-cell__name">Квартир/л.счетов</span>
+                                    <span class="data-cell__value house-info-value">106</span>
+                                </div>
+                                <div class="data-cell house-info-cell">
+                                    <span class="data-cell__name">Общая площадь</span>
+                                    <span class="data-cell__value house-info-value">5000 000 м<sup>2</sup></span>
+                                </div>
+                                <div class="data-cell house-info-cell">
+                                    <span class="data-cell__name">Жилая площадь</span>
+                                    <span class="data-cell__value house-info-value">4877 000 м<sup>2</sup></span>
+                                </div>
+                            </div>
+                            <div class="house-info__wrapper bottom-wrapper">
+                                <div class="data-cell house-info-cell">
+                                    <span class="data-cell__name">Узлов учета</span>
+                                    <span class="data-cell__value house-info-value">123</span>
+                                </div>
+                                <div class="data-cell house-info-cell">
+                                    <span class="data-cell__name">Узлов реагирования</span>
+                                    <span class="data-cell__value house-info-value">43</span>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="house-plan">
+                            <h4 class="visually-hidden">План на следующий месяц</h4>
+                            <header>
+                                В следующем месяце
+                            </header>
+                            <div class="house-plan-wrapper">
+                                <div class="data-cell house-plan-cell">
+                                    <span class="data-cell__name">План</span>
+                                    <span class="data-cell__value house-plan-value">250 000 м<sup>2</sup></span>
+                                </div>
+                                <div class="data-cell house-plan-cell">
+                                    <span class="data-cell__name">Предпол. факт</span>
+                                    <span class="data-cell__value house-plan-value">245 000 м<sup>2</sup></span>
+                                </div>
+                                <div class="data-cell house-plan-cell">
+                                    <span class="data-cell__name">Факторы прогноза</span>
+                                    <span class="data-cell__value house-plan-value">Авария в 4 подъезде, сезонные работы</span>
+                                </div>
+                            </div>
+                            <a href="#" class="house-plan__button">ПОДРОБНЕЕ</a>
+                        </section>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
